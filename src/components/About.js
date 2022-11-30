@@ -3,8 +3,8 @@ import Footer from './Footer';
 
 export default function About() {
     return (
-        <div>
-            <img src={require(`../assets/img/kevin.jpg`)} alt='person eating ice cream'></img>
+        <div className='container'>
+            <img src={require(`../assets/img/kevin.jpg`)} alt='person eating ice cream' className='rounded mx-auto'></img>
             <h1>About me</h1>
             <p>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -12,7 +12,6 @@ export default function About() {
         lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.</p>
-        <h2>Skills</h2>
         <Footer />
         </div>
         

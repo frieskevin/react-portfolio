@@ -23,8 +23,8 @@ export default function Header() {
     };
     const handlePageChange = (page) => setCurrentPage(page);
     return (
-        <div>
-            <h1>Kevin Fries</h1>
+        <div className='container position-relative'>
+            <h1 className='float'>Kevin Fries</h1>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </div>

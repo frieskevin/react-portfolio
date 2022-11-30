@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 export default function Portfolio() {
     return (
-    <div>
+    <div className='container justify-content-center'>
         <Project />
         <Footer />
     </div>
