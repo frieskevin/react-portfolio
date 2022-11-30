@@ -1,3 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Project from './Project';
 
-export default function Portfolio() { }
+export default function Portfolio() {
+    return (
+    <div>
+        <Project />
+    </div>
+    )
+ }
