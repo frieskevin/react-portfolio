@@ -6,7 +6,7 @@ import About from './About';
 import NavTabs from './NavTabs';
 
 export default function Header() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('About');
     const renderPage = () => {
         if (currentPage === 'Portfolio') {
             return <Portfolio />

@@ -8,9 +8,9 @@ export default function Project() {
             image: 'photo-port'
         },
         {
-            name: 'Photo-port',
-            link: 'https://frieskevin.github.io/photo-port/',
-            image: 'photo-port'
+            name: 'Pizza Hunt',
+            link: 'https://afternoon-caverns-54266.herokuapp.com/',
+            image: 'pizza-hunt'
         },
         {
             name: 'Photo-port',
@@ -24,15 +24,17 @@ export default function Project() {
         }
     ]);
     const projects = projectData.map((data) =>
-        <div id={data.name} className='flex-row'>
+        <div className='col-5'>
             <a href={data.link}>
                 <h2>{data.name}</h2>
-                <img src={require(`../assets/img/${data.image}.png`)} alt='app in use'></img>
+                <img className='img-fluid' src={require(`../assets/img/${data.image}.png`)} alt='app in use'></img>
             </a>
         </div>)
     return (
-        <>
+        <div className='container text-center'>
+            <div className='row'>
             {projects}
-        </>
+            </div>
+        </div>
     )
 }
