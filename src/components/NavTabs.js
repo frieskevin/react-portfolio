@@ -3,7 +3,6 @@ import React from 'react';
 export default function NavTabs({ currentPage, handlePageChange }) {
     return (
         <>
-        <h1>Kevin Fries</h1>
         <ul className='nav nav-tabs'>
             <li className='nav-item'>
                 <a href='#about'
