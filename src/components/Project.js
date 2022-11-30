@@ -13,9 +13,9 @@ export default function Project() {
             image: 'pizza-hunt'
         },
         {
-            name: 'Photo-port',
+            name: 'Contact cards',
             link: 'https://frieskevin.github.io/photo-port/',
-            image: 'photo-port'
+            image: 'contact-card'
         },
         {
             name: 'Photo-port',
@@ -25,7 +25,7 @@ export default function Project() {
     ]);
     const projects = projectData.map((data) =>
         <div className='col-5'>
-            <a href={data.link}>
+            <a href={data.link} style={{textDecoration: 'none'}}>
                 <h2>{data.name}</h2>
                 <img className='img-fluid' src={require(`../assets/img/${data.image}.png`)} alt='app in use'></img>
             </a>

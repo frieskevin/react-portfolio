@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import Footer from './Footer';
 
 export default function Contact() { 
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -48,6 +49,7 @@ export default function Contact() {
                 )}
                 <button type='submit'>Submit</button>
             </form>
+            <Footer />
         </section>
     )
 }
