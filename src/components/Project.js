@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import gitHub from '../assets/img/github.svg'
 
 export default function Project() {
     const [projectData] = useState([
@@ -21,14 +22,14 @@ export default function Project() {
             image: 'contact-card'
         },
         {
-            name: 'Photo port',
-            link1: 'https://frieskevin.github.io/photo-port/',
-            link2: '',
-            image: 'photo-port'
+            name: 'Xdream',
+            link1: 'https://github.com/llacourciere/Xdream',
+            link2: 'https://nameless-falls-05978.herokuapp.com/',
+            image: 'xdream'
         },
         {
-            name: 'Photo port',
-            link1: 'https://frieskevin.github.io/photo-port/',
+            name: 'Just Tech News',
+            link1: 'https://github.com/frieskevin/just-tech-news',
             link2: '',
             image: 'photo-port'
         },
@@ -42,7 +43,7 @@ export default function Project() {
     const projects = projectData.map((data) =>
         <div className='col-5'>
             <a href={data.link1} style={{textDecoration: 'none'}}>
-                <h3 className='textyellow'>{data.name}</h3>
+                <h3 className='textyg'>{data.name}<img src={gitHub} /></h3>
                 <img className='img-fluid rounded' src={require(`../assets/img/${data.image}.png`)} alt='app in use'></img>
             </a>
         </div>)
