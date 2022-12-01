@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <div className=' '>
+        <div className='bgyg'>
             <div className='row '>
                 <div className='col-2 img-fluid'>
                     <img className="float-start img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github logo' />

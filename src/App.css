@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.bgjet {
+  background-color: #2f2f2f;
+}
+
+.textyellow {
+  color: #f6f930;
+}
+
+.bgyg {
+  background-color: #d2f898;
+}
+
+.bgwhite {
+  background-color: #fcfcfc;
+}
+
+.textwhite {
+  color: #fcfcfc;
+}
+
+.textjet {
+  color: #2f2f2f;
+}

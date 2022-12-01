@@ -42,8 +42,8 @@ export default function Project() {
     const projects = projectData.map((data) =>
         <div className='col-5'>
             <a href={data.link1} style={{textDecoration: 'none'}}>
-                <h3>{data.name}</h3>
-                <img className='img-fluid' src={require(`../assets/img/${data.image}.png`)} alt='app in use'></img>
+                <h3 className='textyellow'>{data.name}</h3>
+                <img className='img-fluid rounded' src={require(`../assets/img/${data.image}.png`)} alt='app in use'></img>
             </a>
         </div>)
     return (
