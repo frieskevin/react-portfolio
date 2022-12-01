@@ -6,7 +6,7 @@ import stackOverflow from '../assets/img/stackoverflow.svg';
 export default function Footer() {
     return (
 
-        <div className='d-flex justify-content-center bgyg'>
+        <div className='d-flex justify-content-center bgyg py-3'>
             <div className=''>
                 <a href='https://github.com/frieskevin'>
                     <img className="" src={gitHub} alt='github logo' />
