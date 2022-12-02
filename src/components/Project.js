@@ -40,6 +40,7 @@ export default function Project() {
             image: 'udi'
         }
     ]);
+    //maps the projectData array to make a div for every entry
     const projects = projectData.map((data) =>
         <div className='col-5'>
             <a href={data.link1} style={{textDecoration: 'none'}}>

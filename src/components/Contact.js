@@ -6,6 +6,7 @@ export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
+    // handles change of which part of the form is selected
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -25,6 +26,7 @@ export default function Contact() {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
     }
+    //console logs the data from the form
     function handleSubmit(e) {
         e.preventDefault();
         if (!errorMessage) {
