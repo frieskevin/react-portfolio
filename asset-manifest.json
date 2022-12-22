@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e191c2ca.css",
-    "main.js": "/react-portfolio/static/js/main.b4615413.js",
+    "main.js": "/react-portfolio/static/js/main.c57ee29d.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/pizza-hunt.png": "/react-portfolio/static/media/pizza-hunt.d7a01b9f43848cc62634.png",
     "static/media/kevin.jpg": "/react-portfolio/static/media/kevin.64b0885bb926a6560bde.jpg",
+    "static/media/gitinit.png": "/react-portfolio/static/media/gitinit.c3ab5ecbcdc8395b9a6c.png",
     "static/media/xdream.png": "/react-portfolio/static/media/xdream.b28f06745970790674bd.png",
     "static/media/udi.png": "/react-portfolio/static/media/udi.7627889b4cd09ddc7eab.png",
     "static/media/Kevin-Fries-Resume.pdf": "/react-portfolio/static/media/Kevin-Fries-Resume.b9c16a2dfe6a1cf59da4.pdf",
@@ -16,11 +17,11 @@
     "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.b2aeca0a2d0eb3ad6138f309873f745a.svg",
     "static/media/stackoverflow.svg": "/react-portfolio/static/media/stackoverflow.8bccd82909a7ffd0a367a1f24667221a.svg",
     "main.e191c2ca.css.map": "/react-portfolio/static/css/main.e191c2ca.css.map",
-    "main.b4615413.js.map": "/react-portfolio/static/js/main.b4615413.js.map",
+    "main.c57ee29d.js.map": "/react-portfolio/static/js/main.c57ee29d.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e191c2ca.css",
-    "static/js/main.b4615413.js"
+    "static/js/main.c57ee29d.js"
   ]
 }
