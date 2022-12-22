@@ -4,6 +4,12 @@ import gitHub from '../assets/img/github.svg'
 export default function Project() {
     const [projectData] = useState([
         {
+            name: 'Gitinit to Win It!',
+            link1: 'https://github.com/frieskevin/board-game-tracker',
+            link2: 'https://blooming-reef-74951.herokuapp.com/',
+            image: 'gitinit'
+        },
+        {
             name: 'Photo port',
             link1: 'https://github.com/frieskevin/photo-port',
             link2: 'https://frieskevin.github.io/photo-port/',
@@ -38,7 +44,7 @@ export default function Project() {
             link1: 'https://github.com/frieskevin/u-develop-it',
             link2: 'https://frieskevin.github.io/u-develop-it',
             image: 'udi'
-        }
+        },
     ]);
     //maps the projectData array to make a div for every entry
     const projects = projectData.map((data) =>
