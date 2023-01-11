@@ -13,13 +13,8 @@ export default function Footer() {
                 </a>
             </div>
             <div className=''>
-                <a href='https://www.linkedin.com/in/kevin-fries-9844a8243/'>
+                <a href='https://www.linkedin.com/in/frieskevin/'>
                     <img className="" src={linkedIn} alt='linked in logo' />
-                </a>
-            </div>
-            <div className=''>
-                <a href='https://stackoverflow.com/users/19417403/alotofsnakes?tab=profile'>
-                    <img className="" src={stackOverflow} alt='stackoverflow logo' />
                 </a>
             </div>
         </div>
