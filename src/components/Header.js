@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Portfolio from './Portfolio';
-import Contact from './Contact';
 import Resume from './Resume';
 import About from './About';
 import NavTabs from './NavTabs';
@@ -11,9 +10,6 @@ export default function Header() {
     const renderPage = () => {
         if (currentPage === 'Portfolio') {
             return <Portfolio />
-        }
-        if (currentPage === 'Contact') {
-            return <Contact />
         }
         if (currentPage === 'Resume') {
             return <Resume />
